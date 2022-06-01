@@ -1,6 +1,6 @@
 function Bouton({className,children,onChange}) {
     return ( 
-        <button className={className} >{children}</button>
+        <button className={className} onChange={onChange} >{children}</button>
      );
 }
 
